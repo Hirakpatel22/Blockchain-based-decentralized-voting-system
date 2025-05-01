@@ -1,0 +1,4 @@
+npx hardhat compile
+npx ganache --mnemonic "cave another resource feed electric draft together convince dumb crush comic wealth" --blockTime 1
+npx hardhat run scripts/deploy.js --network localhost
+npx http-server frontend
